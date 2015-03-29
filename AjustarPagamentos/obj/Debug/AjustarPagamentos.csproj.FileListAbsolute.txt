@@ -1,0 +1,9 @@
+Y:\git\AjustarPagamentos\AjustarPagamentos\bin\Debug\AjustarPagamentos.exe.config
+Y:\git\AjustarPagamentos\AjustarPagamentos\obj\Debug\AjustarPagamentos.csprojResolveAssemblyReference.cache
+Y:\git\AjustarPagamentos\AjustarPagamentos\obj\Debug\AjustarPagamentos.Form1.resources
+Y:\git\AjustarPagamentos\AjustarPagamentos\obj\Debug\AjustarPagamentos.Properties.Resources.resources
+Y:\git\AjustarPagamentos\AjustarPagamentos\obj\Debug\AjustarPagamentos.csproj.GenerateResource.Cache
+Y:\git\AjustarPagamentos\AjustarPagamentos\bin\Debug\AjustarPagamentos.exe
+Y:\git\AjustarPagamentos\AjustarPagamentos\bin\Debug\AjustarPagamentos.pdb
+Y:\git\AjustarPagamentos\AjustarPagamentos\obj\Debug\AjustarPagamentos.exe
+Y:\git\AjustarPagamentos\AjustarPagamentos\obj\Debug\AjustarPagamentos.pdb
