@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btApagar = new System.Windows.Forms.Button();
             this.btBuscar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.dtFim = new System.Windows.Forms.DateTimePicker();
@@ -37,7 +38,6 @@
             this.txCodigo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.grid = new System.Windows.Forms.DataGridView();
-            this.btApagar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(504, 61);
             this.panel1.TabIndex = 0;
+            // 
+            // btApagar
+            // 
+            this.btApagar.Location = new System.Drawing.Point(397, 23);
+            this.btApagar.Name = "btApagar";
+            this.btApagar.Size = new System.Drawing.Size(75, 23);
+            this.btApagar.TabIndex = 7;
+            this.btApagar.Text = "Apagar";
+            this.btApagar.UseVisualStyleBackColor = true;
+            this.btApagar.Click += new System.EventHandler(this.btApagar_Click);
             // 
             // btBuscar
             // 
@@ -128,16 +138,6 @@
             this.grid.Size = new System.Drawing.Size(504, 322);
             this.grid.TabIndex = 1;
             // 
-            // btApagar
-            // 
-            this.btApagar.Location = new System.Drawing.Point(397, 23);
-            this.btApagar.Name = "btApagar";
-            this.btApagar.Size = new System.Drawing.Size(75, 23);
-            this.btApagar.TabIndex = 7;
-            this.btApagar.Text = "Apagar";
-            this.btApagar.UseVisualStyleBackColor = true;
-            this.btApagar.Click += new System.EventHandler(this.btApagar_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,6 +146,7 @@
             this.Controls.Add(this.grid);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ajustar Pagamentos";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
